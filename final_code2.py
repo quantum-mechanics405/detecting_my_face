@@ -11,7 +11,8 @@ output_folder = 'output_faces'
 
 # Create the output folder if it doesn't exist
 if not os.path.exists(output_folder):
-    os.makedirs(output_folder)
+    os.makedirs(output_folder) 
+
 
 # Initialize the MTCNN face detector
 detector = MTCNN()
